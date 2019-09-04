@@ -1,8 +1,8 @@
-var express = require("express");
-var path = require("path");
+const express = require("express");
+const path = require("path");
 
 var app = express();
-var PORT = 3000;
+const PORT = 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -16,11 +16,6 @@ app.get("/survey", function (req, res) {
     //Path to survey
     res.sendFile(path.join(__dirname, "app/public/survey.html"));
 });
-
-
-
-
-
 
 
 
