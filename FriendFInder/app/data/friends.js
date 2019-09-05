@@ -1,4 +1,4 @@
-var friends = [
+module.exports = [
     {
         name: "Dwight Schrute",
         photo: "ipsum.jpg",
@@ -166,5 +166,7 @@ Questionaire: on a scale of 1 to 5 how strongly do you agree with the following 
 1 I have a strong sense of humor and love to joke around
 2 I have a compulsive need to have everyone love me
 3 I think Hilary Swank is hot
-4
+4 I have an intense love of food
+5
 */
+
