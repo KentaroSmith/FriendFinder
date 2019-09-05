@@ -19,6 +19,19 @@
             <h1>Find your new best friend!</h1>
             <h3>Answer the questionaire below:</h3>
             <hr>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Name</span>
+                </div>
+                <input type="text" class="form-control" aria-describedby="basic-addon1" id="name">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Photo URL</span>
+                </div>
+                <input type="text" class="form-control" aria-describedby="basic-addon1" id="photo">
+            </div>
+            <hr>
             <div class="row">
                 <div class="col-12">
                     <div class="input-group">
@@ -37,12 +50,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I have a compulsive need to have everyone love me</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question2">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -52,12 +66,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I think Hilary Swank is hot</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question3">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -67,12 +82,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I have an intense love of food</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question4">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -82,12 +98,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I love to gossip</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question5">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -97,12 +114,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I love party planning</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question6">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -112,12 +130,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I would be willing to start a work place romance</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question7">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -127,12 +146,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I would describe myself as extremely loyal</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question8">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -142,12 +162,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I have a strong sense of humor and love to joke around</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question9">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -157,12 +178,13 @@
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="input-group-prepend">
                             <label for="input-group-text">
                                 <h3>I have a strong sense of humor and love to joke around</h3>
                             </label>
                             <div class="input-group-text">
-                                <select class="custom-select" id="question1">
+                                <select class="custom-select" id="question10">
                                     <option selected>Choose...</option>
                                     <option value="1">Strongly Disagree</option>
                                     <option value="2">Somewhat Disagree</option>
@@ -176,10 +198,42 @@
                     </div>
                 </div>
             </div>
+            <a href="#" id="submit"><button type="button" class="btn btn-lg btn-primary">
+                    <h4>Submit</h4>
+                </button></a>
         </div>
 
     </div>
+    <footer>
+        <div class="container">
+            <p>
+                <a href="/api/friends">API Friends List</a>
+                |
+                <a href="https://github.com/KentaroSmith/FriendFinder">GitHub Repo</a>
+            </p>
+        </div>
+    </footer>
     <script src="../routing/apiRoutes.js"></script>
+    <script type="text/javascript">
+        $("#submit").on("click", function () {
+            event.preventDefault();
+            var finished = false;
+            var answers = [];
+            for (var i = 1; i < 11; i++) {
+                var value = $("#question" + i).val();
+                answers.push(value)
+            }
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: answers
+            };
+            $.post("../routing/apiRoutes.js");
+            //curently not posting, need to look in to this
+            console.log(answers)
+
+        });
+    </script>
 </body>
 
 </html>
